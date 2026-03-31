@@ -6,7 +6,9 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-# pacman -Syu --noconfirm PACKAGESHERE
+pacman -Syu --noconfirm \
+    audacious  \
+    fluidsynth
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
