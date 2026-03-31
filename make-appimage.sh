@@ -14,7 +14,7 @@ export DEPLOY_QT=1
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/audacious /usr/bin/audtool /usr/share/audacious
+quick-sharun /usr/bin/audacious /usr/bin/audtool /usr/share/audacious /usr/lib/audacious
 
 # Additional changes can be done in between here
 
